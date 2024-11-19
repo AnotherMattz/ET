@@ -1,0 +1,33 @@
+body {
+    color: coral;
+    background: rgb(14, 41, 15);
+    font-family: "Chakra Petch", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0x;
+}
+
+button {
+    background-color: crimson;
+    color: lightgoldenrodyellow;
+    font-family: "Chakra Petch", sans-serif;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 90%;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <title>ET</title>
+</head>
+
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="ET-passo0.png" alt="">
+            <p> Você anda assistindo vários vídeos sobre lendas urbanas, até descobrir uma real, o maior fracasso da
+                história dos vídeo-games, o ET de Atari.
+                Com isso em mente, você decide procurar pelas fitas que foram
+                escondidas e enterradas, para que ninguém possa lembrar de tal fracasso!</p>
+            <button class="btn-proximo" data-proximo="1">Novo México</button>
+            <button class="btn-proximo" data-proximo="2">Colorado</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="NM.png" alt="">
+            <p>Ao chegar no Novo México, você decide procurar por mais pistas na internet, e perguntar aos cidadãos do
+                estado por onde as fitas estão, eles afirmam que as fitas estão no estado, mas não sabem por qual parte
+                dele, assim, só desejando boa sorte!</p>
+            <button class="btn-proximo" data-proximo="3">Seguir para loja de jogos.</button>
+            <button class="btn-proximo" data-proximo="4">Seguir para o lixão.</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="CL.png" alt="">
+            <p>
+                Ao chegar em colorado, você decide procurar por mais pistas, e perguntar aos cidadãos do estado por onde
+                as fitas estão, eles te chamam de louco e negam a existência deles, assim o forçando a seguir por outro
+                rumo.</p>
+            <button class="btn-proximo" data-proximo="10">Seguir para o Novo México.</button>
+            <button class="btn-proximo" data-proximo="11">Desistir e voltar de mãos vazias ao Brasil.</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <img src="LDJ.png" alt="">
+            <p>
+                Na loja de jogos, você pergunta sobre as fitas perdidas de Atari, o atendende revela que elas estão
+                escondidas em algum lugar abaixo da terra, sendo uma otima dica.</p>
+            <button class="btn-proximo" data-proximo="5">Áreas de escavações</button>
+            <button class="btn-proximo" data-proximo="6">Terrenos Baldios</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="LX.png" alt="">
+            <p>
+                Você encontra uma fita velha no lixão, mas não a que você esteve procurando todo esse tempo, isso te
+                desanima e lhe faz desistir da busca, voltando pra casa.</p>
+            <button class="btn-proximo" data-proximo="3">Seguir para loja de jogos</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <img src="AE.png" alt="">
+            <p>
+                Você vê marcas velhas de escavações, e as desenterram, mas não acha as fitas que tanto procurava! Com
+                tal desanimo, você desite e vai pra casa pela baita perda de tempo.</p>
+            <button class="btn-proximo" data-proximo="0">Voltar ao inicio.</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <img src="TB.png" alt="">
+            <p>
+                Você procura marcas de escavação no terreno, e acha algumas, e ao desenterrar, vê um grande buraco com
+                uma escada para subir e descer ele.</p>
+            <button class="btn-proximo" data-proximo="7">Descer o buraco.</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <img src="ET2.jpeg" alt="">
+            <p>
+                Você finalmente acha as fitas perdidas, mas se encontra com uma cruel duvida do que fazer.</p>
+            <button class="btn-proximo" data-proximo="8">Deixar as fitas.</button>
+            <button class="btn-proximo" data-proximo="9">Levar as fitas.</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <p>
+                Você decide deixar as fitas para preservar a história delas, mas vai embora satisfeito com isso!.</p>
+            <button class="btn-proximo" data-proximo="0">Obrigado por jogar! Caso queira ver o outro final, clicle neste
+                botão para voltar ao começo</button>
+        </div>
+        <div class="passo" id="passo-9">
+            <p>
+                Você decide pegar e levar algumas fitas com você, fazendo a aventura e exploração valer a pena, alem
+                disto, gravará vários videos virais sobre o assunto, conseguindo criar sucesso e repercussão com esses
+                videos, e bastante dinheir também, Parabéns!</p>
+            <button class="btn-proximo" data-proximo="0">Obrigado por jogar! Caso queira ver o outro final, clicle neste
+                botão para voltar ao começo</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <img src="NM.png" alt="">
+            <p>
+                Você decide re-fazer seu caminho e assim voltar pela outra rota, o Novo México, pois após checar a lenda
+                novamente, consegue
+                ver que de fato que lá era o local verdadeiro, e não colorado.</p>
+            <button class="btn-proximo" data-proximo="1">Seguir para o Novo-México.</button>
+        </div>
+        <div class="passo" id="passo-11">
+            <p>
+                Você percebe que o dinheiro gasto na viagem não vale a pena, sendo só uma perda de tempo, assim você
+                desiste e volta ao Brasil sem nada.</p>
+            <button class="btn-proximo" data-proximo="0">Voltar ao inicio.</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
